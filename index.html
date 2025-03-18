@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    
+</head>
+
+<body class="has-text-centered">
+    
+    <section class="hero is link">
+        <button class="button is-link" onclick="updateText()">Press here</button>
+        <p class="tittle" id="output">This button print Hello World!.</p>
+    </section>
+    
+    <script>
+        function updateText() {
+            document.getElementById("output").innerHTML = "Hello World!";
+        }
+    </script>
+
+</body>
+</html>
